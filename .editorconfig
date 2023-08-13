@@ -1,0 +1,85 @@
+# Top-most EditorConfig file
+root = true
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# HTML files
+[*.html]
+indent_style = space
+indent_size = 2
+
+# JavaScript files
+[*.js]
+[*.ts]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+# CSS files
+[*.css]
+indent_style = space
+indent_size = 2
+
+# Java and Haxe files
+[*.java]
+[*.hx]
+[*.hxml]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+# Python files
+[*.py]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+# C/C++ files
+[*.c]
+[*.cc]
+[*.cpp]
+[*.h]
+[*.hpp]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+# C# files and xaml files
+[*.cs]
+[*.csx]
+[*.xaml]
+[*.xaml.cs]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+# Go files
+[*.go]
+indent_style = tab
+indent_size = 4
+
+# Objective-C files
+[*.m]
+[*.mm]
+indent_style = space
+indent_size = 2
+
+# Shell files
+[*.sh]
+indent_style = tab
+indent_size = 2
+max_line_length = 80
+
+# R files
+[*.r]
+indent_style = space
+indent_size = 2
+
+# Swift files
+[*.swift]
+indent_style = space
+indent_size = 2
