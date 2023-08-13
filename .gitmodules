@@ -1,3 +1,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/Shoshta73/AstroNvim.git
+[submodule "Personal"]
+	path = Personal
+	url = https://github.com/Shoshta73/personal-backup-repo.git
