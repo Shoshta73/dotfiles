@@ -1,0 +1,28 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	email = 128172135+Shoshta73@users.noreply.github.com
+	name = Shoshta73
+[commit]
+	gpgsign = true
+[core]
+	editor = nvim
+[gpg]
+	program = gpg
+[init]
+	defaultBranch = main
+[mergetool "vscode"]
+	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[pull]
+	rebase = false
+[credential "https://github.com"]
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = !/usr/bin/gh auth git-credential
+[push]
+	autoSetupRemote = true
