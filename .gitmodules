@@ -1,6 +1,12 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/Shoshta73/AstroNvim.git
+	shallow = true
 [submodule "Personal"]
 	path = Personal
 	url = https://github.com/Shoshta73/personal-backup-repo.git
+	shallow = true
+[submodule ".bash_it"]
+	path = .bash_it
+	url = https://github.com/Bash-it/bash-it.git
+	shallow = true
