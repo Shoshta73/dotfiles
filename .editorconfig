@@ -70,6 +70,10 @@ indent_size = 2
 
 # Shell files
 [*.sh]
+[.bashrc]
+[.bash_aliases]
+[.bash_profile]
+[.profile]
 indent_style = tab
 indent_size = 2
 max_line_length = 80
