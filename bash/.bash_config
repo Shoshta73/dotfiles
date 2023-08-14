@@ -1,3 +1,0 @@
-if [ -f "$BASH_CONFIG/.bash_aliases"]; then
-    . "$BASH_CONFIG/.bash_aliases"
-fi
