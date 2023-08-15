@@ -2,6 +2,9 @@
 alias pomodoro='Pomatez'
 alias pomo='pomodoro'
 
+alias todo='Lunatask'
+alias Todo='todo'
+
 #navigation
 alias ..='cd ..'
 alias 2b='cd ../..'
@@ -25,3 +28,9 @@ alias py='python3'
 
 # screensaver
 alias scrsaver='xset s off && xset -dpms'
+
+alias l="exa"
+alias ls="exa -G --git --color=always --icons --group-directories-first"
+alias la="exa -aG --git --color=always --icons --group-directories-first"
+alias ll="exa -1laFbB --color=always --icons --group-directories-first"
+alias lg="exa -1laFbB --git --color=always --icons --group-directories-first"
