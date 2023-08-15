@@ -1,6 +1,4 @@
-[Dialogs]
-FirstRun=false
-
 [Appearance]
 Blur=true
+HideSkinBorders=true
 Translucency=true
