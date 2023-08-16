@@ -29,6 +29,23 @@ style.code_font = renderer.font.load(USERDIR .. "/fonts/JetBrainsMonoNerdFont-Re
 
 ------------------------------ Plugins ----------------------------------------
 
+--autosave
+local autosave = require "plugins.autosave"
+local as_olf = require "plugins.autosaveonfocuslost"
+
+-- tetris
+local tetris = require "plugins.tetris"
+
+-- langugaes
+local cmake = require "plugins.language_cmake"
+local java = require "plugins.language_java"
+local jsx = require "plugins.language_jsx"
+local tsx = require "plugins.language_tsx"
+local rust = require "plugins.language_rust"
+local zig = require "plugins.language_zig"
+
+--lsp
+local lsp_snippets = require "plugins.lsp_snippets"
 local lspconfig = require "plugins.lsp.config"
 
 -- Activate clangd without overwriting any settings for c/c++
