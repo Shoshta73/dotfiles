@@ -1,1 +1,13 @@
-#
+# lite xl plugins
+[submodule "lite-xl/libraries/widget"]
+	path = lite-xl/libraries/widget
+	url = https://github.com/lite-xl/lite-xl-widgets
+	shallow = true
+[submodule "lite-xl/plugins/lintplus"]
+	path = lite-xl/plugins/lintplus
+	url = https://github.com/liquidev/lintplus
+	shallow = true
+[submodule "lite-xl/plugins/lsp"]
+	path = lite-xl/plugins/lsp
+	url = https://github.com/lite-xl/lite-xl-lsp
+	shallow = true

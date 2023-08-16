@@ -6,6 +6,7 @@
 [user]
 	email = 128172135+Shoshta73@users.noreply.github.com
 	name = Shoshta73
+	signingkey = AE738F4E146BC1D2
 [commit]
 	gpgsign = true
 [core]
