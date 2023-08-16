@@ -2,3 +2,6 @@
 Blur=true
 HideSkinBorders=true
 Translucency=true
+
+[Dialogs]
+FirstRun=false
