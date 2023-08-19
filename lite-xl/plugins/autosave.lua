@@ -13,25 +13,25 @@ local on_text_change = Doc.on_text_change
 config.plugins.autosave = common.merge({
   enabled = true,
   -- the approximate amount of time, in seconds, that it takes to trigger an autosave
-  timeout = 1,
+  timeout = 300,
   -- The config specification used by the settings gui
   config_spec = {
-    name = "Auto Save",
-    {
-      label = "Enable",
-      description = "Enable or disable the auto save feature.",
-      path = "enabled",
-      type = "toggle",
-      default = true
-    },
+    -- name = "Auto Save",
+    -- {
+    --   label = "Enable",
+    --   description = "Enable or disable the auto save feature.",
+    --   path = "enabled",
+    --   type = "toggle",
+    --   default = true
+    -- },
     {
       label = "Timeout",
       description = "Approximate amount of time in seconds it takes to trigger an autosave.",
       path = "timeout",
       type = "number",
-      default = 1,
-      min = 1,
-      max = 30
+      -- default = 1,
+      min = 30,
+      max = 600
     }
   }
 }, config.plugins.autosave)

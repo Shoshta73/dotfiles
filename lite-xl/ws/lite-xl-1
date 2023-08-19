@@ -1,1 +1,1 @@
-return { path = "/home/borna/dotfiles/lite-xl", documents = {["active_view"]=1,["views"]={[1]={["active"]=true,["scroll"]={["to"]={["y"]=0,["x"]=0},["x"]=0,["y"]=0},["type"]="view",["module"]="core.emptyview"}},["type"]="leaf"}, directories = {} }
+return { path = "/home/borna/dotfiles/lite-xl", documents = {["type"]="leaf",["views"]={[1]={["type"]="view",["scroll"]={["to"]={["x"]=0,["y"]=0},["y"]=0,["x"]=0},["active"]=true,["module"]="core.emptyview"}},["active_view"]=1}, directories = {} }
