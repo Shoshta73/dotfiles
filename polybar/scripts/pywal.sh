@@ -52,7 +52,7 @@ change_color() {
 }
 
 # Main
-export wallpaper_path=$HOME/dotfiles/wallpapers
+export wallpaper_path=$HOME/wallpaper-collection
 shopt -s nullglob
 
 wallpapers=(

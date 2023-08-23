@@ -6,7 +6,7 @@ smudge = git-lfs smudge -- %f
 [user]
 	email = 128172135+Shoshta73@users.noreply.github.com
 	name = Shoshta73
-	signingkey = AE738F4E146BC1D2
+	signingkey = 1084F8690AA4E0A9
 [commit]
 	gpgsign = true
 [core]

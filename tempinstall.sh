@@ -109,7 +109,7 @@ git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 git clone --depth=1 https://github.com/adi1090x/polybar-themes.git ~/polybar-themes
 wget -P ~/bin/ https://github.com/firecat53/networkmanager-dmenu/raw/main/networkmanager_dmenu
 
-npm install -g npm@latest
-npm i -g yo @vscode/vsce yarn pnpm generator-code
-npm install -g purescript spago
-npm install -g  typescript
+sudo npm install -g npm@latest
+sudo npm i -g yo @vscode/vsce yarn pnpm generator-code
+sudo npm install -g purescript spago
+sudo npm install -g  typescript

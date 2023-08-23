@@ -93,6 +93,12 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+bindsym $mod+Control+h workspace prev
+bindsym $mod+Control+Left workspace prev
+
+bindsym $mod+Control+l workspace next
+bindsym $mod+Control+Right workspace next
+
 # split in horizontal orientation
 bindsym $mod+b split h
 
@@ -197,14 +203,13 @@ mode "$mode_launcher" {
         bindsym t exec kitty
         bindsym c exec code
         bindsym w exec firefox
-        
-
 
         bindsym Escape mode "default"
         bindsym Return mode "default"
 }
 
 exec_always ~/.config/polybar/launch.sh &
-# exec_always feh --bg-scale ~/dotfiles/wallpapers/Sweet-space.png &
-exec_always ~/.fehbg
+exec_always ~/.fehbg &
+exec_always picom &
 exec_always xset s off && xset -dpms
+
