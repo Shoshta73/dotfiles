@@ -58,8 +58,8 @@ lspconfig.clangd.setup()
 -- Activate gopls
 lspconfig.gopls.setup()
 
--- Activate the lua-language-server, set the server command and
--- modify the default settings in order to disable diagnostics.
+-- -- Activate the lua-language-server, set the server command and
+-- -- modify the default settings in order to disable diagnostics.
 -- lspconfig.sumneko_lua.setup {
 --   command = {
 --     "/path/to/lua-language-server/bin/Linux/lua-language-server",
@@ -72,6 +72,14 @@ lspconfig.gopls.setup()
 --         enable = false
 --       }
 --     }
+--   }
+-- }
+-- -- Activate intelephense and pass additional initializationOptions
+-- -- like the license key and storage path.
+-- lspconfig.intelephense.setup {
+--   init_options = {
+--     licenceKey = "MYLICENSEKEY",
+--     storagePath = "/home/myuser/.cache/intelephense"
 --   }
 -- }
 

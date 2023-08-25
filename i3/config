@@ -204,6 +204,7 @@ mode "$mode_launcher" {
         bindsym c exec code
         bindsym w exec firefox
 
+        bindsym $mod+o mode "default"
         bindsym Escape mode "default"
         bindsym Return mode "default"
 }

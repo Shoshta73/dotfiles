@@ -1,3 +1,6 @@
+alias us='setxkbmap us'
+alias hr='setxkbmap hr'
+
 # pomatez
 alias pomodoro='Pomatez'
 alias pomo='pomodoro'
@@ -18,7 +21,8 @@ alias 3b='cd ../../..'
 
 # BLC
 alias blc='BLC'
-alias BLC='BadlionClient'
+alias BLC='__GL_THREADED_OPTIMIZATIONS=0 BadlionClient'
+alias BadlionClient='__GL_THREADED_OPTIMIZATIONS=0 BadlionClient --quiet'
 
 #vim
 alias nv='nvim'
@@ -34,3 +38,5 @@ alias ls="exa -G --git --color=always --icons --group-directories-first"
 alias la="exa -aG --git --color=always --icons --group-directories-first"
 alias ll="exa -1laFbB --color=always --icons --group-directories-first"
 alias lg="exa -1laFbB --git --color=always --icons --group-directories-first"
+
+alias cat='bat'
