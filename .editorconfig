@@ -14,6 +14,10 @@ indent_size = 2
 
 # JavaScript files
 [*.js]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
 [*.ts]
 indent_style = space
 indent_size = 2
@@ -26,7 +30,15 @@ indent_size = 2
 
 # Java and Haxe files
 [*.java]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
 [*.hx]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
 [*.hxml]
 indent_style = space
 indent_size = 2
@@ -40,9 +52,25 @@ max_line_length = 80
 
 # C/C++ files
 [*.c]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
 [*.cc]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
 [*.cpp]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
 [*.h]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
 [*.hpp]
 indent_style = space
 indent_size = 2
@@ -50,8 +78,20 @@ max_line_length = 80
 
 # C# files and xaml files
 [*.cs]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
 [*.csx]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
 [*.xaml]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
 [*.xaml.cs]
 indent_style = space
 indent_size = 2
@@ -70,9 +110,25 @@ indent_size = 2
 
 # Shell files
 [*.sh]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
 [.bashrc]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
 [.bash_aliases]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
 [.bash_profile]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
 [.profile]
 indent_style = space
 indent_size = 2
