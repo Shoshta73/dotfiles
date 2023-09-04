@@ -6,8 +6,7 @@ charset = utf-8
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
-
-
+# Web Stuff
 # HTML files
 [*.html]
 indent_style = space
@@ -29,12 +28,19 @@ max_line_length = 80
 indent_style = space
 indent_size = 2
 
+# Java Stuff
 # Java and Haxe files
 [*.java]
 indent_style = space
 indent_size = 2
 max_line_length = 100
 
+[*.kt]
+indent_style = space
+indent_size = 2
+max_line_lenght = 100
+
+# Haxe stuff
 [*.hx]
 indent_style = space
 indent_size = 2
@@ -45,12 +51,14 @@ indent_style = space
 indent_size = 2
 max_line_length = 100
 
+
 # Python files
 [*.py]
 indent_style = space
 indent_size = 2
 max_line_length = 80
 
+# C family
 # C/C++ files
 [*.c]
 indent_style = space
@@ -98,17 +106,17 @@ indent_style = space
 indent_size = 2
 max_line_length = 100
 
-# Go files
-[*.go]
-indent_style = space
-indent_size = 2
-
 # Objective-C files
 [*.m]
 indent_style = space
 indent_size = 2
 
 [*.mm]
+indent_style = space
+indent_size = 2
+
+# Go files
+[*.go]
 indent_style = space
 indent_size = 2
 
