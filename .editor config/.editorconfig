@@ -1,0 +1,157 @@
+# Top-most EditorConfig file
+root = true
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+
+# HTML files
+[*.html]
+indent_style = space
+indent_size = 2
+
+# JavaScript files
+[*.js]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.ts]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+# CSS files
+[*.css]
+indent_style = space
+indent_size = 2
+
+# Java and Haxe files
+[*.java]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+[*.hx]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+[*.hxml]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+# Python files
+[*.py]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+# C/C++ files
+[*.c]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.cc]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.cpp]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.h]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.hpp]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+# C# files and xaml files
+[*.cs]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+[*.csx]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+[*.xaml]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+[*.xaml.cs]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+# Go files
+[*.go]
+indent_style = space
+indent_size = 2
+
+# Objective-C files
+[*.m]
+indent_style = space
+indent_size = 2
+
+[*.mm]
+indent_style = space
+indent_size = 2
+
+# Shell files
+[*.sh]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[.bashrc]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[.bash_aliases]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[.bash_profile]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[.profile]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+# R files
+[*.r]
+indent_style = space
+indent_size = 2
+
+# Swift files
+[*.swift]
+indent_style = space
+indent_size = 2
+
+[*.dart]
+indent_style = space
+indent_size = 2
+
+[*.{json,jsonc}]
+indent_style = tab
+indent_size = 4
