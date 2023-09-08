@@ -1,5 +1,6 @@
 alias us='setxkbmap us'
 alias hr='setxkbmap hr'
+alias where='which'
 
 # pomatez
 alias pomodoro='Pomatez'

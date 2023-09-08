@@ -5,12 +5,17 @@ mkdir -p ~/opt
 mkdir -p ~/.local/share/fonts
 mkdir -p ~/.local/share/fonts/truetype
 mkdir -p ~/.local/share/fonts/opentype
+cp ~/dofiles/fonts/* ~/.local/share/fonts/
+mkdir -p ~/Coding
+mkdir -p ~/Coding/Personal
+mkdir -p ~/Coding/FontFlex
+git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 sudo pacman -S --needed git base-devel
 sudo pacman -S wget
 sudo pacman -S curl
 sudo pacman -S zip
 sudo pacman -S unzip
-sudo pacman -S github-cli
+sudo pacman -S github-cli glab
 sudo pacman -S tmux
 sudo pacman -S yakuake alacritty wezterm
 sudo pacman -S python-pywal
@@ -31,6 +36,7 @@ sudo pacman -S helix
 sudo pacman -S discord
 sudo pacman -S nvidia
 sudo pacman -S haxe
+sudo pacman -S pulseaudio pavucontrol-qt
 mkdir ~/haxelib && haxelib setup ~/haxelib
 
 git clone https://aur.archlinux.org/yay.git
@@ -40,7 +46,6 @@ cd ~/
 yay -S slack-desktop
 yay -S fastfetch
 yay -S spotify
-yay -S fastfetch
 yay -S slack-desktop
 yay -S github-desktop-bin
 yay -S visual-studio-code-bin
@@ -48,7 +53,6 @@ yay -S godot
 yay -S sublime-text-4
 yay -S sublime-merge
 yay -S wps-office
-yay -S hotspot
 yay -S hotspot
 yay -S android-studio
 
@@ -102,12 +106,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 gh auth login
 
-git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 #~/.bash_it/install.sh -- insteractive
-
-# Untill i make my own polybar configuration
-git clone --depth=1 https://github.com/adi1090x/polybar-themes.git ~/polybar-themes
-wget -P ~/bin/ https://github.com/firecat53/networkmanager-dmenu/raw/main/networkmanager_dmenu
 
 sudo npm install -g npm@latest
 sudo npm i -g yo @vscode/vsce yarn pnpm generator-code
