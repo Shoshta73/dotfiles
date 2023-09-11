@@ -33,10 +33,10 @@ alias py='python3'
 # screensaver
 alias scrsaver='xset s off && xset -dpms'
 
-alias l="exa"
-alias ls="exa -G --git --color=always --icons --group-directories-first"
-alias la="exa -aG --git --color=always --icons --group-directories-first"
-alias ll="exa -1laFbB --color=always --icons --group-directories-first"
-alias lg="exa -1laFbB --git --color=always --icons --group-directories-first"
+alias l="eza"
+alias ls="eza -G --git --color=always --icons --group-directories-first"
+alias la="eza -aG --git --color=always --icons --group-directories-first"
+alias ll="eza -1laFbB --color=always --icons --group-directories-first"
+alias lg="eza -1laFbB --git --color=always --icons --group-directories-first"
 
 alias cat='bat'
