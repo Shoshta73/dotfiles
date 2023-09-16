@@ -1,6 +1,6 @@
 [filter "lfs"]
 	clean = git-lfs clean -- %f
-smudge = git-lfs smudge -- %f
+	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
 [user]
@@ -11,6 +11,7 @@ smudge = git-lfs smudge -- %f
 	gpgsign = true
 [core]
 	editor = nvim
+	autocrlf = false
 [gpg]
 	program = gpg
 [init]
