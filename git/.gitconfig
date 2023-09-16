@@ -34,3 +34,5 @@
 	username = Shoshta73
 [credential "https://codeberg.org"]
 	username = Shoshta73
+[safe]
+	directory = /opt/flutter
