@@ -163,3 +163,7 @@ indent_size = 2
 [*.{json,jsonc}]
 indent_style = tab
 indent_size = 4
+
+[*.lua]
+indent_style = tab
+indent_size = 4
