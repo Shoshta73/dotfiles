@@ -41,3 +41,4 @@ alias ll="eza -1laFbB --color=always --icons --group-directories-first"
 alias lg="eza -1laFbB --git --color=always --icons --group-directories-first"
 
 alias cat='bat'
+alias cx='clear -x'
