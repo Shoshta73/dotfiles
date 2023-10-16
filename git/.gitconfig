@@ -16,10 +16,16 @@
 	program = gpg
 [init]
 	defaultBranch = main
+[diff]
+  tool = meld
+[difftool]
+  prompt = false
 [mergetool "vscode"]
 	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
-[difftool "vscode"]
-	cmd = code --wait --diff $LOCAL $REMOTE
+; [difftool "vscode"]
+; 	cmd = code --wait --diff $LOCAL $REMOTE
+[difftool "meld"]
+  cmd = meld "$LOCAL" "$REMOTE"
 [pull]
 	rebase = true
 [credential "https://github.com"]
