@@ -42,3 +42,5 @@ alias lg="eza -1laFbB --git --color=always --icons --group-directories-first"
 
 alias cat='bat'
 alias cx='clear -x'
+
+alias ssh='eval $(ssh-agent -s) && ssh-add ~/.ssh/GitAndGitHub'
