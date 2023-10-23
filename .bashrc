@@ -1,6 +1,89 @@
 export BASH_IT="/home/borna/.bash_it"
 
-export BASH_IT_THEME='bobby'
+# export BASH_IT_THEME='90210'
+# export BASH_IT_THEME='agnoster'
+# export BASH_IT_THEME='atomic'
+# export BASH_IT_THEME='axin'
+# export BASH_IT_THEME='bakke'
+# export BASH_IT_THEME='barbuk'
+# export BASH_IT_THEME='binaryanomaly'
+# export BASH_IT_THEME='bira'
+# export BASH_IT_THEME='bobby'
+# export BASH_IT_THEME='bobby-pyhton'
+# export BASH_IT_THEME='brainy'
+# export BASH_IT_THEME='brunton'
+# export BASH_IT_THEME='candy'
+# export BASH_IT_THEME='clean'
+# export BASH_IT_THEME='codeword'
+# export BASH_IT_THEME='cooperkid'
+# export BASH_IT_THEME='cupcake'
+# export BASH_IT_THEME='demula'
+# export BASH_IT_THEME='dos'
+# export BASH_IT_THEME='doubletime'
+# export BASH_IT_THEME='doubletime_multiline'
+# export BASH_IT_THEME='doubletime_multiline_pyonly'
+# export BASH_IT_THEME='dulcie'
+# export BASH_IT_THEME='duru'
+# export BASH_IT_THEME='easy'
+# export BASH_IT_THEME='elixr'
+# export BASH_IT_THEME='emperor'
+# export BASH_IT_THEME='envy'
+# export BASH_IT_THEME='essential'
+# export BASH_IT_THEME='font'
+# export BASH_IT_THEME='galligrey'
+# export BASH_IT_THEME='gitline'
+# export BASH_IT_THEME='hawaii50'
+# export BASH_IT_THEME='iterate'
+# export BASH_IT_THEME='kitsune'
+export BASH_IT_THEME='liquidprompt'
+# export BASH_IT_THEME='luan'
+# export BASH_IT_THEME='mairan'
+# export BASH_IT_THEME='mbriggs'
+# export BASH_IT_THEME='metal'
+# export BASH_IT_THEME='minimal'
+# export BASH_IT_THEME='modern'
+# export BASH_IT_THEME='modern-t'
+# export BASH_IT_THEME='modern-time'
+# export BASH_IT_THEME='morris'
+# export BASH_IT_THEME='n0qorg'
+# export BASH_IT_THEME='newin'
+# export BASH_IT_THEME='norbu'
+# export BASH_IT_THEME='nwinkler'
+# export BASH_IT_THEME='nwinkler_random_colors'
+# export BASH_IT_THEME='oh-my-posh'
+# export BASH_IT_THEME='parrot'
+# export BASH_IT_THEME='pete'
+# export BASH_IT_THEME='powerline'
+# export BASH_IT_THEME='powerline-multiline'
+# export BASH_IT_THEME='powerline-naked'
+# export BASH_IT_THEME='powerline-plain'
+# export BASH_IT_THEME='powerturk'
+# export BASH_IT_THEME='primer'
+# export BASH_IT_THEME='pro'
+# export BASH_IT_THEME='pure'
+# export BASH_IT_THEME='purity'
+# export BASH_IT_THEME='radek'
+# export BASH_IT_THEME='rainbowbrite'
+# export BASH_IT_THEME='ramses'
+# export BASH_IT_THEME='rana'
+# export BASH_IT_THEME='redline'
+# export BASH_IT_THEME='rjorgenson'
+# export BASH_IT_THEME='robbyrussell'
+# export BASH_IT_THEME='roderik'
+# export BASH_IT_THEME='sexy'
+# export BASH_IT_THEME='simple'
+# export BASH_IT_THEME='sirup'
+# export BASH_IT_THEME='slick'
+# export BASH_IT_THEME='standard'
+# export BASH_IT_THEME='tonka'
+# export BASH_IT_THEME='tonotdo' ##
+# export BASH_IT_THEME='tylenol' ###
+# export BASH_IT_THEME='wanelo' ###
+# export BASH_IT_THEME='zitron'
+# export BASH_IT_THEME='zork'
+# export BASH_IT_THEME='/home/borna/.bash_it/themes/'
+# export BASH_IT_THEME='/home/borna/.bash_it/themes/'
+# export BASH_IT_THEME='/home/borna/.bash_it/themes/'
 
 THEME_CHECK_SUDO='true'
 
@@ -115,3 +198,11 @@ export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 PATH=~/.console-ninja/.bin:$PATH
+#
+# cd zozin/Dev-Tools
+# source ~/personalVenv/bin/activate
+# for theme in ${BASH_IT}/themes/*; do
+#     # bash-it enable theme ${theme##*/}
+#     bash-it preview ${theme##*/}
+#     # echo "Previewing ${theme##*/} theme"
+# done

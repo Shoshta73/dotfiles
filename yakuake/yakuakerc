@@ -5,3 +5,10 @@ Translucency=true
 
 [Dialogs]
 FirstRun=false
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[Window]
+Height=30
+Width=80

@@ -5,8 +5,12 @@ window:
 font:
   normal:
     family: JetBrainsMono Nerd Font Mono
-  size: 8.0
+  size: 7.0
 cursor:
   style:
     shape: Beam
     blinking: On
+bell:
+  animation: EaseOutExpo
+  color: '#ff0000'
+  command: None
