@@ -5,9 +5,9 @@
 	required = true
 
 [user]
-	email = 128172135+Shoshta73@users.noreply.github.com
+	email = sostaric.borna@hotmail.com
 	name = Shoshta73
-	signingkey = 1084F8690AA4E0A9
+	signingkey = 442D9F93E162E650
 
 [commit]
 	gpgsign = true
