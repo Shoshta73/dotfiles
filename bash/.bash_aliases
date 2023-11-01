@@ -50,7 +50,7 @@ alias lt="eza -1laFbBT --git --color=always --icons --group-directories-first"
 alias cat='bat'
 alias cx='clear -x'
 
-alias ssh='eval $(ssh-agent -s) && ssh-add ~/.ssh/GitAndGitHub'
+alias ssh='eval $(ssh-agent -s) && ssh-add ~/.ssh/GitHostAuth'
 
 # personal venv
 alias PPY='$HOME/personalVenv/bin/python'

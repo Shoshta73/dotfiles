@@ -94,6 +94,9 @@ THEME_CHECK_SUDO='true'
 export GIT_HOSTING='git@github.com'
 
 export PGH='git@github.com:Shoshta73/'
+export PGL='git@gitlab.com:Shoshta73/'
+export PCB='git@codeberg.org:Shoshta73/'
+export PGT='git@gitea.com:Shoshta73/'
 
 unset MAILCHECK
 

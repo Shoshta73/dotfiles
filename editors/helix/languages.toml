@@ -1,6 +1,13 @@
 [[language]]
 name = "rust"
-auto-format = false
+auto-format = true
+
+[[language]]
+name = "go"
+auto-format = true
+# comment-token = "#"
+# formatter = { command = "gofmt" , args = ["--stdin"] }
+# language-servers = [ "gopls" ]
 
 [[language]]
 name = "markdown"
