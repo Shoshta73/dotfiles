@@ -1,4 +1,4 @@
-donwload_fonts(){
+download_fonts(){
   mkdir -p ~/.local/share/fonts
 
   wget -P ~/.local/share/fonts https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip

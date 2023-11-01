@@ -34,3 +34,7 @@ scriptedInstalls() {
   sdk install groovy
   sdk install maven
 }
+
+npmInstalls() {
+  sudo npm install -g npm@latest yo @vscode/vsce yarn pnpm generator-code purescript spago typescript vite
+}

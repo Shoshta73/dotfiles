@@ -1,31 +1,27 @@
 # dotfiles
+
 Personal config files - use at your own wish
 
-## Instructions
-
-Clone this repository with
+Arch
 
 ```console
-git clone --recurse-submodules --shallow-submodules --depth=1
+sudo pacman -S git && git clone https://github.com/Shoshta73/dotfiles "$HOME"/dotfiles && bash ~/dotfiles/install-scripts/install.sh
 ```
 
-### Manual setup
-
-Files that are not in the their respective folders should be symlinked to home direcotry
+Debian based
 
 ```console
-ln -s ~/<dotfiles directory>/<file> ~/<path to file>/<file>
+sudo apt install  git && git clone https://github.com/Shoshta73/dotfiles "$HOME"/dotfiles && bash ~/dotfiles/install-scripts/install.sh
 ```
-**Note Filename in the second part is not needed**
 
-### Scripted setup
+Alpine
 
-## Important
+```console
+sudo apk add git && git clone https://github.com/Shoshta73/dotfiles "$HOME"/dotfiles && bash ~/dotfiles/install-scripts/install.sh
+```
 
-In /Personal direcotry atre thing that are not for public eyes
+---
 
-In /Srcipts are scripts needed to configure dot files
+# IMPORTANT
 
-In /Extras are git submodules
-**Note some thing that are submodules may be added outside of the Extras direcotry**
-
+Clone recursively or update submodules only if you use or plan on using lite-xl
