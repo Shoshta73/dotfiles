@@ -2,10 +2,10 @@
 
 DISTRO=$(cat /etc/os-release | grep NAME | head -n 1 | sed 's/NAME=//;s/"//g')
 
-source ./fonts.sh
-source ./scriptedInstalls.sh
-source ./configs.sh
-source ./fromSource.sh
+source ~/dotfiles/install-scripts/fonts.sh
+source ~/dotfiles/install-scripts/scriptedInstalls.sh
+source ~/dotfiles/install-scripts/configs.sh
+source ~/dotfiles/install-scripts/fromSource.sh
 
 yayInstall() {
   git clone https://aur.archlinux.org/yay.git
@@ -24,6 +24,7 @@ case "$DISTRO" in
     utils=("meld" "gitg" "sublime-merge" "github-desktop-bin")
     browsers=("firefox" "google-chrome" "brave-bin" "vivaldi")
     office=("obsidian" "apostrophe" "ghostwriter" "xournalpp" "wps-office")
+    unoPlatform=("gtk3" "dotnet-targeting-pack" "dotnet-sdk" "dotnet-host" "dotnet-runtime" "mono" "python" "mono-msbuild" "ninja" "gn" "aspnet-runtime")
 
 
     echo "Arch Linux"
@@ -69,6 +70,12 @@ case "$DISTRO" in
       echo "Installing: $browser"
       echo "yay -S $browser"
       yay -S --needed "$browser"
+    done
+
+    for uno in "${unoPlatform[@]}"; do
+      echo "Installing: $uno"
+      echo "yay -S $uno"
+      yay -S --needed "$uno"
     done
 
     download_fonts
