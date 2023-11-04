@@ -186,7 +186,7 @@ export GPG_TTY=$(tty)
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
-export PATH="$HOME/flutter/bin:$PATH"
+export PATH="$HOME/Software/flutter/bin:$PATH"
 export PATH="$HOME/software/v-analyzer/bin:$PATH"
 . "$HOME/.cargo/env"
 
@@ -211,3 +211,7 @@ PATH=~/.console-ninja/.bin:$PATH
 #     bash-it preview ${theme##*/}
 #     # echo "Previewing ${theme##*/} theme"
 # done
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
