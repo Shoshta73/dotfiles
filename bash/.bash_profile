@@ -26,7 +26,7 @@ export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
 export PATH="$HOME/Software/flutter/bin:$PATH"
-export PATH="$HOME/software/v-analyzer/bin:$PATH"
-
+export PATH="$HOME/Software/v-analyzer/bin:$PATH"
+export PATH="$HOME/Software/v:$PATH"
 
 . "$HOME/.cargo/env"
