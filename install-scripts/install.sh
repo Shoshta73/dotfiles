@@ -29,7 +29,7 @@ case "$DISTRO" in
     editors=("kate" "helix" "micro" "neovim" "visual-studio-code-bin" "sublime-text-4" "android-studio" "intellij-idea-community-edition" "jetbrains-fleet")
     utils=("meld" "gitg" "sublime-merge" "github-desktop-bin")
     browsers=("firefox" "google-chrome" "brave-bin" "vivaldi")
-    office=("obsidian" "apostrophe" "ghostwriter" "xournalpp" "wps-office")
+    office=("obsidian" "apostrophe" "ghostwriter" "xournalpp" "wps-office" "discord")
     unoPlatform=("gtk3" "dotnet-targeting-pack" "dotnet-sdk" "dotnet-host" "dotnet-runtime" "mono" "python" "mono-msbuild" "ninja" "gn" "aspnet-runtime")
 
 
@@ -74,16 +74,18 @@ case "$DISTRO" in
 
     for browser in "${browsers[@]}"; do
       echo "Installing: $browser"
-      echo "yay -S $browser"
+      echo "yay -S --needed $browser"
       yay -S --needed "$browser"
     done
 
     for uno in "${unoPlatform[@]}"; do
       echo "Installing: $uno"
-      echo "yay -S $uno"
+      echo "yay -S --needed $uno"
       yay -S --needed "$uno"
     done
     unoSetup
+
+    dotnet new install Avalonia.Templates
 
     download_fonts
     wgetInstalls
