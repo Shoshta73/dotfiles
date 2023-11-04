@@ -7,7 +7,7 @@
 [user]
 	email = sostaric.borna@hotmail.com
 	name = Shoshta73
-	signingkey = 442D9F93E162E650
+	signingkey = EC68F4EBCAB7CB33
 
 [commit]
 	gpgsign = true
