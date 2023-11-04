@@ -35,11 +35,19 @@ vlang() {
   git clone --depth=1 https://github.com/vlang/v
   cd v
   make
-# HINT: Using Windows? run make.bat in a cmd shell, or ./make.bat in PowerShell
+  sudo ./v symlink
+  cd ..
+
+  git clone --depth=1 https://github.com/Shoshta73/v-analyzer.git
+  cd v-analyzer
+  v install
+  v build.vsh release
+  cd
 }
 
 sourceArch() {
   mkdir -p ~/Apps
   cd ~/Apps
   aseprite
+  vlang
 }

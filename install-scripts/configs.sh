@@ -23,6 +23,8 @@ bashSymLinks() {
   ln -s ~/dotfiles/bash/.bash_profile ~/.bash_profile
   echo "ln -s ~/dotfiles/bash/.bash_aliases ~/.bash_aliases"
   ln -s ~/dotfiles/bash/.bash_aliases ~/.bash_aliases
+  echo "ln -s ~/dotfiles/bash/bash-it-profiles.sh ~/.bash_it/profiles/"
+  ln -s ~/dotfiles/bash/bash-it-profiles.sh ~/.bash_it/profiles/
 }
 
 symlinks() {
@@ -74,5 +76,23 @@ symlinks() {
   rm -rf ~/.config/yakuakerc
   echo "ln -s ~/dotfiles/terminal/yakuake/yakuakerc ~/.config/yakuakerc"
   ln -s ~/dotfiles/terminal/yakuake/yakuakerc ~/.config/yakuakerc
+
+  echo "rm ~/.config/yakuake.notifyrc"
+  rm ~/.config/yakuake.notifyrc
+  echo "ln -s ~/dotfiles/terminal/yakuake/yakuake.notifyrc ~/.config/yakuake.notifyrc"
+  ln -s ~/dotfiles/terminal/yakuake/yakuake.notifyrc ~/.config/yakuake.notifyrc
+
+  echo "ln -s ~/dotfiles/terminal/konsole/term.profile ~/.local/share/konsole/term.profile"
+  ln -s ~/dotfiles/terminal/konsole/term.profile ~/.local/share/konsole/term.profile
+
+  echo "rm ~/.config/konsole.notifyrc"
+  rm ~/.config/konsole.notifyrc
+  echo "ln -s ~/dotfiles/terminal/konsole/konsole.notifyrc ~/.config/konsole.notifyrc"
+  ln -s ~/dotfiles/terminal/konsole/konsole.notifyrc ~/.config/konsole.notifyrc
+
+  echo "rm ~/.config/konsolerc"
+  rm ~/.config/konsolerc
+  echo "ln -s ~/dotfiles/terminal/konsole/konsolerc ~/.config/konsolerc"
+  ln -s ~/dotfiles/terminal/konsole/konsolerc ~/.config/konsolerc
 
 }
