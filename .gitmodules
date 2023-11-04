@@ -8,3 +8,6 @@
 [submodule "lite-xl/plugins/lsp"]
 	path = lite-xl/plugins/lsp
 	url = https://github.com/lite-xl/lite-xl-lsp
+[submodule "private"]
+	path = private
+	url = https://github.com/Shoshta73/private-dots
