@@ -17,7 +17,7 @@ aseprite() {
   export CC=clang
   export CXX=clang++
   cmake \
-    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+    -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_CXX_FLAGS:STRING=-stdlib=libc++ \
     -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libc++ \
     -DLAF_BACKEND=skia \
