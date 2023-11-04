@@ -1,0 +1,35 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+shift+alt+m",
+    "command": "workbench.action.toggleMenuBar"
+  },
+  {
+    "key": "ctrl+shift+alt+s",
+    "command": "workbench.action.toggleStatusbarVisibility"
+  },
+  {
+    "key": "ctrl+shift+alt+b",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "ctrl+alt+0",
+    "command": "workbench.action.focusAuxiliaryBar"
+  },
+  {
+    "key": "ctrl+shift+alt+f",
+    "command": "workbench.action.toggleCenteredLayout"
+  },
+  {
+    "key": "ctrl+f4",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+w ctrl+o",
+    "command": "workbench.action.openWorkspace"
+  }
+]

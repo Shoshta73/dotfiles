@@ -1,0 +1,353 @@
+{
+  "debug.javascript.autoAttachFilter": "disabled",
+  "peacock.affectActivityBar": true,
+  "tabnine.experimentalAutoImports": true,
+  ////////////////////////////////////////////////////////////////////////////
+  // Editor Settings -- global
+  ////////////////////////////////////////////////////////////////////////////
+  // FONTS
+  ////////////////////////////////////////////////////////////////////////////
+  // Font Family
+
+  // Font Sizes
+  /*
+   * Ubutnu Mono -> 12
+   * Lilex ->       12
+   * JBM ->         12
+   * Fira Mono ->   12
+   * Iosevka ->     14
+   * default ->     14
+   */
+  // Lilex
+  // "editor.fontFamily": "Lilex Nerd Font Mono",
+  // "editor.codeLensFontFamily": "Lilex Nerd Font Mono",
+  // "scm.inputFontFamily": "Lilex Nerd Font Mono",
+  // "terminal.integrated.fontFamily": "Lilex Nerd Font Mono",
+  // "debug.console.fontFamily": "Lilex Nerd Font Mono",
+  // "notebook.output.fontFamily": "Lilex Nerd Font Mono",
+  // "markdown.preview.fontFamily": "Lilex Nerd Font Mono",
+  // "errorLens.fontFamily": "Lilex Nerd Font Mono",
+  // "fonted.font": "Lilex Nerd Font Mono",
+  // "chat.editor.fontFamily": "Lilex Nerd Font Mono",
+  // "editor.fontSize": 12,
+  // "editor.codeLensFontSize": 12,
+  // "scm.inputFontSize": 12,
+  // "terminal.integrated.fontSize": 12,
+  // "debug.console.fontSize": 12,
+  // "notebook.markup.fontSize": 12,
+  // "errorLens.fontSize": 12,
+  // "window.zoomLevel": -1.75,
+
+  // Jetbrains mono
+  // "editor.fontFamily": "JetBrains Mono",
+  // "editor.codeLensFontFamily": "JetBrains Mono",
+  // "scm.inputFontFamily": "JetBrains Mono",
+  // "terminal.integrated.fontFamily": "JetBrains Mono",
+  // "debug.console.fontFamily": "JetBrains Mono",
+  // "notebook.output.fontFamily": "JetBrains Mono",
+  // "markdown.preview.fontFamily": "JetBrains Mono",
+  // "errorLens.fontFamily": "JetBrains Mono",
+  // "fonted.font": "JetBrains Mono",
+  // "chat.editor.fontFamily": "JetBrains Mono",
+
+  // "editor.fontSize": 10,
+  // "editor.codeLensFontSize": 10,
+  // "scm.inputFontSize": 10,
+  // "terminal.integrated.fontSize": 10,
+  // "debug.console.fontSize": 10,
+  // "notebook.markup.fontSize": 10,
+  // "errorLens.fontSize": 10,
+  // "window.zoomLevel": -1.75,
+
+  // JBM Nerd
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.codeLensFontFamily": "JetBrainsMono Nerd Font Mono",
+  "scm.inputFontFamily": "JetBrainsMono Nerd Font Mono",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "debug.console.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "notebook.output.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "markdown.preview.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "errorLens.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "fonted.font": "JetBrainsMono Nerd Font Mono",
+  "chat.editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontSize": 12,
+  "editor.codeLensFontSize": 12,
+  "scm.inputFontSize": 12,
+  "terminal.integrated.fontSize": 12,
+  "debug.console.fontSize": 12,
+  "notebook.markup.fontSize": 12,
+  "errorLens.fontSize": 12,
+  "window.zoomLevel": -2,
+  // "window.zoomLevel": -2,
+
+  // Fira Code
+  // "editor.fontFamily": "FiraCode Nerd Font Mono",
+  // "editor.codeLensFontFamily": "FiraCode Nerd Font Mono",
+  // "scm.inputFontFamily": "FiraCode Nerd Font Mono",
+  // "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  // "debug.console.fontFamily": "FiraCode Nerd Font Mono",
+  // "notebook.output.fontFamily": "FiraCode Nerd Font Mono",
+  // "markdown.preview.fontFamily": "FiraCode Nerd Font Mono",
+  // "errorLens.fontFamily": "FiraCode Nerd Font Mono",
+  // "fonted.font": "FiraCode Nerd Font Mono",
+  // "chat.editor.fontFamily": "FiraCode Nerd Font Mono",
+  // "editor.fontSize": 12,
+  // "editor.codeLensFontSize": 12,
+  // "scm.inputFontSize": 12,
+  // "terminal.integrated.fontSize": 12,
+  // "debug.console.fontSize": 12,
+  // "notebook.markup.fontSize": 12,
+  // "errorLens.fontSize": 12,
+  // "window.zoomLevel": -1.75,
+
+  // Iosevka
+  // "editor.fontFamily": "Iosevka Nerd Font Mono",
+  // "editor.codeLensFontFamily": "Iosevka Nerd Font Mono",
+  // "scm.inputFontFamily": "Iosevka Nerd Font Mono",
+  // "terminal.integrated.fontFamily": "Iosevka Nerd Font Mono",
+  // "debug.console.fontFamily": "Iosevka Nerd Font Mono",
+  // "notebook.output.fontFamily": "Iosevka Nerd Font Mono",
+  // "markdown.preview.fontFamily": "Iosevka Nerd Font Mono",
+  // "errorLens.fontFamily": "Iosevka Nerd Font Mono",
+  // "fonted.font": "Iosevka Nerd Font Mono",
+  // "chat.editor.fontFamily": "Iosevka Nerd Font Mono",
+  // "editor.fontSize": 14,
+  // "editor.codeLensFontSize": 14,
+  // "scm.inputFontSize": 14,
+  // "terminal.integrated.fontSize": 14,
+  // "debug.console.fontSize": 14,
+  // "notebook.markup.fontSize": 14,
+  // "errorLens.fontSize": 14,
+  // "window.zoomLevel": -1.75,
+
+  //additional font settings
+  "editor.fontLigatures": true,
+  "editor.fontVariations": true,
+  "errorLens.fontStyleItalic": true,
+  ////////////////////////////////////////////////////////////////////////////
+  "editor.insertSpaces": true,
+  "editor.indentSize": "tabSize",
+  "editor.mouseWheelZoom": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.quickSuggestions": {
+    "comments": "inline"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+
+  "zenMode.hideLineNumbers": false,
+
+  "workbench.editor.enablePreview": true,
+  "workbench.settings.useSplitJSON": true,
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "a-file-icon-vscode",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.centeredLayoutFixedWidth": true,
+  "workbench.layoutControl.enabled": false,
+
+  "terminal.integrated.cursorStyle": "line",
+  "window.commandCenter": false,
+  ////////////////////////////////////////////////////////////////////////////
+  // files
+  ////////////////////////////////////////////////////////////////////////////
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveDelay": 10000,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "files.watcherExclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "explorer.confirmDelete": true,
+  "symbols.hidesExplorerArrows": false,
+  ////////////////////////////////////////////////////////////////////////////
+  // git settings
+  ////////////////////////////////////////////////////////////////////////////
+  "git.openRepositoryInParentFolders": "never",
+  "git.autofetch": true,
+  "gitlens.codeLens.symbolScopes": ["!Module"],
+  "diffEditor.codeLens": true,
+  "conventionalCommits.lineBreak": "\\n",
+  "indentRainbow.ignoreErrorLanguages": ["*"],
+  ////////////////////////////////////////////////////////////////////////////
+  // Python
+  ////////////////////////////////////////////////////////////////////////////
+  "python.analysis.extraPaths": [
+    "/home/borna/.vscode/extensions/continue.continue-0.0.412-linux-x64",
+    "/home/borna/.vscode/extensions/continue.continue-0.0.413-linux-x64",
+    "c:\\Users\\sosta\\.vscode\\extensions\\continue.continue-0.0.413-win32-x64",
+    "/home/borna/.vscode/extensions/continue.continue-0.1.40-linux-x64",
+    "/home/borna/.vscode/extensions/continue.continue-0.1.41-linux-x64",
+    "/home/borna/.vscode/extensions/continue.continue-0.2.0-linux-x64"
+  ],
+  "python.autoComplete.extraPaths": [
+    "/home/borna/.vscode/extensions/continue.continue-0.0.412-linux-x64",
+    "/home/borna/.vscode/extensions/continue.continue-0.0.413-linux-x64",
+    "c:\\Users\\sosta\\.vscode\\extensions\\continue.continue-0.0.413-win32-x64",
+    "/home/borna/.vscode/extensions/continue.continue-0.1.40-linux-x64",
+    "/home/borna/.vscode/extensions/continue.continue-0.1.41-linux-x64",
+    "/home/borna/.vscode/extensions/continue.continue-0.2.0-linux-x64"
+  ],
+  "python.diagnostics.sourceMapsEnabled": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoFormatStrings": true,
+  "pylint.importStrategy": "fromEnvironment",
+  "pylint.args": [],
+  "yapf.importStrategy": "fromEnvironment",
+  "yapf.args": ["--style", "{based_on_style: pep8, indent_width: 2}"],
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordBasedSuggestions": false,
+    "editor.inlineSuggest.suppressSuggestions": false,
+    "editor.defaultFormatter": "eeyore.yapf"
+  },
+  ////////////////////////////////////////////////////////////////////////////
+  // Markdown
+  ////////////////////////////////////////////////////////////////////////////
+  "markdownlint.config": {
+    "MD025": false,
+    "MD036": false
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[java]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "redhat.telemetry.enabled": false,
+  ////////////////////////////////////////////////////////////////////////////
+  // C - C++
+  ////////////////////////////////////////////////////////////////////////////
+  "[cpp][c]": {
+    "editor.wordBasedSuggestions": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "C_Cpp.autocomplete": "default",
+  "C_Cpp.caseSensitiveFileSupport": "default",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "newLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "newLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "newLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "newLine",
+  "C_Cpp.vcFormat.newLine.beforeWhileInDoWhile": true,
+  "C_Cpp.vcFormat.newLine.beforeElse": true,
+  "C_Cpp.vcFormat.newLine.beforeCatch": true,
+  "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
+  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
+  "cmake.configureOnOpen": true,
+  "cmake.automaticReconfigure": false,
+  ////////////////////////////////////////////////////////////////////////////
+  // Json
+  ////////////////////////////////////////////////////////////////////////////
+  "[json5]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.insertSpaces": false,
+    "editor.indentSize": "4"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.insertSpaces": false,
+    "editor.indentSize": "4"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.insertSpaces": false,
+    "editor.indentSize": "4"
+  },
+  "[jsonl]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.insertSpaces": false,
+    "editor.indentSize": "4"
+  },
+  ////////////////////////////////////////////////////////////////////////////
+  // Go
+  ////////////////////////////////////////////////////////////////////////////
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  ////////////////////////////////////////////////////////////////////////////
+  // Zig
+  ////////////////////////////////////////////////////////////////////////////
+  "[zig]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ziglang.vscode-zig"
+  },
+  ////////////////////////////////////////////////////////////////////////////
+  // rust
+  ////////////////////////////////////////////////////////////////////////////
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "rust-analyzer"
+  },
+  ////////////////////////////////////////////////////////////////////////////
+  // kotlin
+  ////////////////////////////////////////////////////////////////////////////
+  "[kotlin]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "Lua.diagnostics.ignoredFiles": ["premake.lua", "premake5.lua"],
+  "editor.minimap.maxColumn": 120,
+  "editor.minimap.autohide": true,
+  "editor.minimap.enabled": true,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.renderFinalNewline": "dimmed",
+  "editor.renderWhitespace": "boundary",
+  "cody.autocomplete.enabled": false,
+  "cody.inlineChat.enabled": false,
+  "cody.codeActions.enabled": true,
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.env.linux": {},
+  "console-ninja.featureSet": "Community",
+  "codeium.enableConfig": {
+    "*": true,
+    "gitignore": true
+  },
+  "gitlens.changes.toggleMode": "window",
+  "gitlens.heatmap.toggleMode": "window",
+  "gitlens.blame.toggleMode": "window",
+  "indentRainbow.indicatorStyle": "light",
+  "window.menuBarVisibility": "toggle",
+
+  "v-analyzer.serverPath": "/home/borna/software/v-analyzer/bin/v-analyzer",
+  "markdownlint.focusMode": true,
+  "markdownlint.lintWorkspaceGlobs": [
+    "**/*.{md,mkd,mdwn,mdown,markdown,markdn,mdtxt,mdtext,workbook}",
+    "!**/bower_components",
+    "!**/node_modules",
+    "!**/vendor",
+    "!**/.git"
+  ],
+  "markdownlint.ignore": ["**/pylintrc"],
+  "Notes.notesLocation": "c:\\Users\\sosta\\source\\DevTools\\DevNotes",
+  "workbench.colorTheme": "Brogrammer",
+  "workbench.statusBar.visible": false,
+  "settingsSync.ignoredSettings": []
+}
