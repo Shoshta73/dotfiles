@@ -70,4 +70,9 @@ symlinks() {
   echo "sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome"
   sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome
 
+  echo "rm -rf ~/.config/yakuakerc"
+  rm -rf ~/.config/yakuakerc
+  echo "ln -s ~/dotfiles/terminal/yakuake/yakuakerc ~/.config/yakuakerc"
+  ln -s ~/dotfiles/terminal/yakuake/yakuakerc ~/.config/yakuakerc
+
 }

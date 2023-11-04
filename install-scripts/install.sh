@@ -22,78 +22,88 @@ unoSetup() {
 
 needed=("git" "zip" "unzip" "wget" "curl" "tar")
 
+archInstallation(){
+  programmingTools=("gcc" "clang" "go" "haxe" "cmake" "premake" "xmake" "zig" "python-pip") # "nodejs" "npm")
+  terminalTools=("tmux" "yakuake" "alacritty" "tldr" "man" "trash-cli" "eza" "bat" "fastfetch")
+  editors=("kate" "helix" "micro" "neovim" "visual-studio-code-bin" "sublime-text-4" "android-studio" "intellij-idea-community-edition" "jetbrains-fleet")
+  utils=("meld" "gitg" "sublime-merge" "github-desktop-bin")
+  browsers=("firefox" "google-chrome" "brave-bin" "vivaldi")
+  office=("obsidian" "ghostwriter" "xournalpp" "wps-office" "discord")
+  unoPlatform=("gtk3" "dotnet-targeting-pack" "dotnet-sdk" "dotnet-host" "dotnet-runtime" "mono" "python" "mono-msbuild" "ninja" "gn" "aspnet-runtime")
+
+
+  echo "Arch Linux"
+
+  echo "sudo pacaman -Syu"
+  sudo pacaman -Syu
+  echo "sudo pacman -S --needed base-devel kde-applications --noconfirm"
+  sudo pacman -S --needed base-devel kde-applications --noconfirm
+
+  for tool in "${needed[@]}"; do
+    echo "Installing: $tool"
+    echo "sudo pacman -S --needed $tool --noconfirm"
+    sudo pacman -S --needed "$tool" --noconfirm
+  done
+
+  yayInstall
+
+  for tool in "${programmingTools[@]}"; do
+    echo "Installing: $tool"
+    echo "yay -S --needed $tool--noconfirm"
+    yay -S --needed "$tool" --noconfirm
+  done
+  mkdir ~/haxelib && haxelib setup ~/haxelib
+
+  for tool in "${terminalTools[@]}"; do
+    echo "Installing: $tool"
+    echo "yay -S $tool --noconfirm"
+    yay -S --needed "$tool" --noconfirm
+  done
+
+  for tool in "${editors[@]}"; do
+    echo "Installing: $tool"
+    echo "yay -S $tool --noconfirm"
+    yay -S --needed "$tool" --noconfirm
+  done
+
+  for tool in "${utils[@]}"; do
+    echo "Installing: $tool"
+    echo "yay -S $tool --noconfirm"
+    yay -S --needed "$tool" --noconfirm
+  done
+
+  for browser in "${browsers[@]}"; do
+    echo "Installing: $browser"
+    echo "yay -S --needed $browser --noconfirm"
+    yay -S --needed "$browser" --noconfirm
+  done
+
+  for uno in "${unoPlatform[@]}"; do
+    echo "Installing: $uno"
+    echo "yay -S --needed $uno --noconfirm"
+    yay -S --needed "$uno" --noconfirm
+  done
+
+  for officeTool in "${office[@]}"; do
+    echo "Installing: $officeTool"
+    echo "yay -S --needed $officeTool --noconfirm"
+    yay -S --needed "$officeTool" --noconfirm
+  done
+  unoSetup
+  dotnet new install Avalonia.Templates
+
+  download_fonts
+  wgetInstalls
+  scriptedInstalls
+  npmInstalls
+  gitClones
+  symlinks
+  sourceArch
+}
+
 case "$DISTRO" in
   "Arch Linux")
-    programmingTools=("gcc" "clang" "go" "haxe" "cmake" "premake" "xmake" "zig" "python-pip") # "nodejs" "npm")
-    terminalTools=("tmux" "yakuake" "alacritty" "tldr" "man" "trash-cli" "eza" "bat" "fastfetch")
-    editors=("kate" "helix" "micro" "neovim" "visual-studio-code-bin" "sublime-text-4" "android-studio" "intellij-idea-community-edition" "jetbrains-fleet")
-    utils=("meld" "gitg" "sublime-merge" "github-desktop-bin")
-    browsers=("firefox" "google-chrome" "brave-bin" "vivaldi")
-    office=("obsidian" "apostrophe" "ghostwriter" "xournalpp" "wps-office" "discord")
-    unoPlatform=("gtk3" "dotnet-targeting-pack" "dotnet-sdk" "dotnet-host" "dotnet-runtime" "mono" "python" "mono-msbuild" "ninja" "gn" "aspnet-runtime")
-
-
-    echo "Arch Linux"
-
-    echo "sudo pacaman -Syu"
-    sudo pacaman -Syu
-    echo "sudo pacman -S --needed base-devel"
-    sudo pacman -S --needed base-devel
-
-    for tool in "${needed[@]}"; do
-      echo "Installing: $tool"
-      echo "sudo pacman -S --needed $tool"
-      sudo pacman -S --needed "$tool"
-    done
-
-    yayInstall
-
-    for tool in "${programmingTools[@]}"; do
-      echo "Installing: $tool"
-      echo "yay -S --needed $tool"
-      yay -S --needed "$tool"
-    done
-
-    for tool in "${terminalTools[@]}"; do
-      echo "Installing: $tool"
-      echo "yay -S $tool"
-      yay -S --needed "$tool"
-    done
-
-    for tool in "${editors[@]}"; do
-      echo "Installing: $tool"
-      echo "yay -S $tool"
-      yay -S --needed "$tool"
-    done
-
-    for tool in "${utils[@]}"; do
-      echo "Installing: $tool"
-      echo "yay -S $tool"
-      yay -S --needed "$tool"
-    done
-
-    for browser in "${browsers[@]}"; do
-      echo "Installing: $browser"
-      echo "yay -S --needed $browser"
-      yay -S --needed "$browser"
-    done
-
-    for uno in "${unoPlatform[@]}"; do
-      echo "Installing: $uno"
-      echo "yay -S --needed $uno"
-      yay -S --needed "$uno"
-    done
-    unoSetup
-
-    dotnet new install Avalonia.Templates
-
-    download_fonts
-    wgetInstalls
-    scriptedInstalls
-    npmInstalls
-    gitClones
-    symlinks
-    sourceArch
+    archInstallation
     ;;
 
   "Ubuntu")
@@ -103,12 +113,6 @@ case "$DISTRO" in
     sudo apt update && sudo apt upagrade
     echo "sudo apt install nala"
     sudo apt install nala
-
-    for tool in "${needed[@]}"; do
-      echo "Installing: $tool"
-      echo "sudo nala install $tool"
-      sudo nala install "$tool"
-    done
 
     download_fonts
     wgetInstalls
@@ -122,4 +126,3 @@ case "$DISTRO" in
     exit 1
     ;;
 esac
-
