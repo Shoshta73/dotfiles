@@ -5,7 +5,7 @@ Logfile=
 Sound=/usr/share/sounds/Oxygen-Sys-Warning.ogg
 TTS=
 
-[Event/silence]
+[Event/SilenceHidden]
 Execute=
 Logfile=
 Sound=

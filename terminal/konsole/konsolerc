@@ -1,0 +1,23 @@
+[Desktop Entry]
+DefaultProfile=term.profile
+
+[General]
+ConfigVersion=1
+
+[KFileDialog Settings]
+Recent Files[$e]=file:///usr/share/sounds/kamoso-shutter.wav,file:///usr/share/sounds/Oxygen-Sys-Warning.ogg,file:///usr/share/sounds/Oxygen-Sys-App-Positive.ogg,file:///usr/share/sounds/Oxygen-Sys-App-Negative.ogg,file:///usr/share/sounds/Oxygen-Sys-App-Error.ogg,file:///usr/share/sounds/Kopete_Sent.ogg,file:///usr/share/sounds/Kopete_Received.ogg,file:///usr/share/sounds/Kopete_Event.ogg,file:///usr/share/sounds/KDiamond-Stone-Swap.ogg
+Recent URLs[$e]=file:///usr/share/sounds/
+detailViewIconSize=16
+
+[MainWindow]
+1920x1080 screen: Height=1056
+1920x1080 screen: Width=960
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=24
+HDMI-1=HDMI-1
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAAAA/////wAAAQ0BAAAD+wAAACIAUQB1AGkAYwBrAEMAbwBtAG0AYQBuAGQAcwBEAG8AYwBrAAAAAAD/////AAABdgEAAAMAAAPAAAAD8gAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAANb/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[UiSettings]
+ColorScheme=
