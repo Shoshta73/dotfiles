@@ -30,6 +30,14 @@ ninja aseprite
 
 }
 
+vlang() {
+  cd ~/Software
+  git clone --depth=1 https://github.com/vlang/v
+  cd v
+  make
+# HINT: Using Windows? run make.bat in a cmd shell, or ./make.bat in PowerShell
+}
+
 sourceArch() {
   mkdir -p ~/Apps
   cd ~/Apps
