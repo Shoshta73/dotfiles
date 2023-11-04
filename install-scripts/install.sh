@@ -14,6 +14,12 @@ yayInstall() {
   cd ~/
 }
 
+unoSetup() {
+  dotnet new -i Uno.Templates
+  dotnet tool install -g uno.check
+  dotnet tool update -g uno.check
+}
+
 needed=("git" "zip" "unzip" "wget" "curl" "tar")
 
 case "$DISTRO" in
@@ -77,6 +83,7 @@ case "$DISTRO" in
       echo "yay -S $uno"
       yay -S --needed "$uno"
     done
+    unoSetup
 
     download_fonts
     wgetInstalls
