@@ -20,6 +20,13 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export TERMINAL='kitty'
+export TERMINAL='alacritty'
+
+export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.dotnet/tools:$PATH"
+export PATH="$HOME/Software/flutter/bin:$PATH"
+export PATH="$HOME/software/v-analyzer/bin:$PATH"
+
 
 . "$HOME/.cargo/env"

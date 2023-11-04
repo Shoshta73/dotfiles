@@ -136,3 +136,5 @@ create_env_scripts()
     esac
   done
 }
+
+alias orca='ollama run orca-mini'
