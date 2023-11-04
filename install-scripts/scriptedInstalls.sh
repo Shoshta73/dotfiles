@@ -1,5 +1,6 @@
 wgetInstalls() {
   mkdir -p ~/bin
+  mkdir -p ~/Software
 
   wget -P ~/bin https://github.com/zidoro/pomatez/releases/download/v1.3.0/Pomatez-v1.3.0-linux-x86_64.AppImage
   mv ~/bin/Pomatez-v1.3.0-linux-x86_64.AppImage ~/bin/Pomatez
@@ -21,6 +22,12 @@ wgetInstalls() {
   cd
 
   wget -P ~/bin https://github.com/firecat53/networkmanager-dmenu/raw/main/networkmanager_dmenu
+
+  cd ~/Software
+  wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.13.9-stable.tar.xz
+  tar -xf flutter_linux_3.13.9-stable.tar.xz
+  rm flutter_linux_3.13.9-stable.tar.xz
+  cd
 }
 
 scriptedInstalls() {

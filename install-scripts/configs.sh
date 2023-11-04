@@ -39,4 +39,7 @@ symlinks() {
   rm -rf ~/.gitconfig
   ln -s ~/dotfiles/programs/git/.gitconfig ~/.gitconfig
 
+  sudo ln -s /usr/bin/helix /usr/bin/hx
+  sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome
+
 }
