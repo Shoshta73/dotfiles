@@ -7,6 +7,13 @@ gitClones() {
 
   echo "git clone --depth=1 https://github.com/Shoshta73/AstroNvim.git ~/.config/nvim"
   git clone --depth=1 https://github.com/Shoshta73/AstroNvim.git ~/.config/nvim
+
+  # We use Alacritty's default Linux config directory as our storage location here.
+  echo "mkdir -p ~/.config/alacritty/themes"
+  mkdir -p ~/.config/alacritty/themes
+  
+  echo "git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes"
+  git clone --depth=1 https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 }
 
 bashSymLinks() {
@@ -41,8 +48,8 @@ symlinks() {
 
   echo "rm -rf ~/.alacritty.yml"
   rm -rf ~/.alacritty.yml
-  echo "ln -s ~/dotfiles/terminal/alacritty/.alacritty.yml ~/.alacritty.yml"
-  ln -s ~/dotfiles/terminal/alacritty/.alacritty.yml ~/.alacritty.yml
+  echo "ln -s ~/dotfiles/terminal/alacritty/.alacritty.yml ~/.config/alacritty/alacritty.yml"
+  ln -s ~/dotfiles/terminal/alacritty/.alacritty.yml ~/.config/alacritty/alacritty.yml
 
   echo "rm -rf ~/.config/kitty/kitty.conf"
   rm -rf ~/.config/kitty/kitty.conf

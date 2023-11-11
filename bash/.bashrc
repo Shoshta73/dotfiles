@@ -183,6 +183,10 @@ fi
 
 export GPG_TTY=$(tty)
 
+if [ -d "$HOME/Software/go" ] ; then
+    PATH="$HOME/Software/go:$PATH"
+fi
+
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"

@@ -5,6 +5,9 @@ wgetInstalls() {
   echo "mkdir -p ~/Software"
   mkdir -p ~/Software
 
+  echo "mkdir -p ~/Apps"
+  mkdir -p ~/Apps
+
   echo "wget -P ~/bin https://github.com/zidoro/pomatez/releases/download/v1.3.0/Pomatez-v1.3.0-linux-x86_64.AppImage"
   wget -P ~/bin https://github.com/zidoro/pomatez/releases/download/v1.3.0/Pomatez-v1.3.0-linux-x86_64.AppImage
 
@@ -32,8 +35,35 @@ wgetInstalls() {
   echo "sudo chmod +x ~/bin/znote"
   sudo chmod +x ~/bin/znote
 
+  echo "wget -P ~/bin https://download.cdn.viber.com/desktop/Linux/viber.AppImage"
+  wget -P ~/bin https://download.cdn.viber.com/desktop/Linux/viber.AppImage
+
+  echo "mv ~/bin/viber.AppImage ~/bin/viber"
+  mv ~/bin/viber.AppImage ~/bin/viber
+
+  echo "sudo chmod +x ~/bin/viber"
+  sudo chmod +x ~/bin/viber
+
+  echo "wget -P ~/Apps https://github.com/cassidoo/todometer/releases/download/v2.0.1/todometer.for.linux.zip"
+  wget -P ~/Apps https://github.com/cassidoo/todometer/releases/download/v2.0.1/todometer.for.linux.zip
+
+  echo "unzip -d ~/Apps/todometer ~/Apps/todometer.for.linux.zip"
+  unzip -d ~/Apps/todometer ~/Apps/todometer.for.linux.zip
+
+  echo "cp -r ~/Apps/todometer/linux-unpacked/* ~/Apps/todometer"
+  cp -r ~/Apps/todometer/linux-unpacked/* ~/Apps/todometer
+
+  echo "rm ~/Apps/todometer.for.linux.zip"
+  rm ~/Apps/todometer.for.linux.zip
+
+  echo "rm -rf ~/Apps/todometer/linux-unpacked/"
+  rm -rf ~/Apps/todometer/linux-unpacked/
+
+  echo "ln -s ~/Apps/todometer/todometer ~/bin/"
+  ln -s ~/Apps/todometer/todometer ~/bin/
+
+
   echo "cd ~/bin"
-  cd ~/bin
 
   echo "curl -o eget.sh https://zyedidia.github.io/eget.sh"
   curl -o eget.sh https://zyedidia.github.io/eget.sh
