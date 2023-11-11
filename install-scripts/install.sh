@@ -15,7 +15,7 @@ yayInstall() {
 }
 
 unoSetup() {
-  dotnet new -i Uno.Templates
+  dotnet new install Uno.Templates
   dotnet tool install -g uno.check
   dotnet tool update -g uno.check
 }
