@@ -1,19 +1,25 @@
-# lite xl plugins
-[submodule "lite-xl/libraries/widget"]
-	path = lite-xl/libraries/widget
-	url = https://github.com/lite-xl/lite-xl-widgets
-[submodule "lite-xl/plugins/lintplus"]
-	path = lite-xl/plugins/lintplus
-	url = https://github.com/liquidev/lintplus
-[submodule "lite-xl/plugins/lsp"]
-	path = lite-xl/plugins/lsp
-	url = https://github.com/lite-xl/lite-xl-lsp
+#obvious
 [submodule "private"]
 	path = private
 	url = https://github.com/Shoshta73/private-dots
-[submodule "terminal/alacritty/themes"]
-	path = terminal/alacritty/themes
-	url = https://github.com/alacritty/alacritty-theme.git
+
+# semi obvious
 [submodule "install-scripts"]
 	path = install-scripts
 	url = https://github.com/Shoshta73/install-scripts
+
+# alacritty themes
+[submodule "terminal/alacritty/themes"]
+	path = terminal/alacritty/themes
+	url = https://github.com/alacritty/alacritty-theme.git
+
+# lite xl plugins
+[submodule "editors/lite-xl/libraries/widget"]
+	path = editors/lite-xl/libraries/widget
+	url = https://github.com/lite-xl/lite-xl-widgets
+[submodule "editors/lite-xl/plugins/lsp"]
+	path = editors/lite-xl/plugins/lsp
+	url = https://github.com/lite-xl/lite-xl-lsp
+[submodule "editors/lite-xl/plugins/lintplus"]
+	path = editors/lite-xl/plugins/lintplus
+	url = https://github.com/liquidev/lintplus
