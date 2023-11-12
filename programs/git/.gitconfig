@@ -13,7 +13,7 @@
 	gpgsign = true
 
 [core]
-	editor = hx
+	editor = nvim
 	autocrlf = false
 	pager = delta
 
