@@ -24,7 +24,7 @@ if [ -d "$HOME/Software/go" ] ; then
     PATH="$HOME/Software/go:$PATH"
 fi
 
-export TERM='xterm-256color'
+# export TERM='xterm-256color'
 export TERMINAL='alacritty'
 
 export PATH="$HOME/bin:$PATH"
