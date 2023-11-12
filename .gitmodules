@@ -14,3 +14,6 @@
 [submodule "terminal/alacritty/themes"]
 	path = terminal/alacritty/themes
 	url = https://github.com/alacritty/alacritty-theme.git
+[submodule "install-scripts"]
+	path = install-scripts
+	url = https://github.com/Shoshta73/install-scripts
