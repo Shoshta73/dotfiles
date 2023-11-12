@@ -2,7 +2,7 @@ import:
   - ~/.config/alacritty/themes/themes/github_dark_high_contrast.yaml
 
 window:
-  decorations: Full
+  decorations: none
   startup_mode: Maximized
   # opacity: 0.85
 font:
