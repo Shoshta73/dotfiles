@@ -11,3 +11,6 @@
 [submodule "private"]
 	path = private
 	url = https://github.com/Shoshta73/private-dots
+[submodule "terminal/alacritty/themes"]
+	path = terminal/alacritty/themes
+	url = https://github.com/alacritty/alacritty-theme.git
