@@ -28,6 +28,7 @@ alias itch='itch --disable-gpu-sandbox'
 # BLC
 alias blc='BLC'
 alias BLC='BadlionClient > /dev/null'
+alias BadlionClient='BadlionClient > /dev/null'
 
 #vim
 alias nv='nvim'
