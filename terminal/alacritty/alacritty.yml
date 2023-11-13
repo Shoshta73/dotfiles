@@ -11,7 +11,7 @@ font:
   size: 8.0
 cursor:
   style:
-    shape: Beam
+    shape: beam
     blinking: On
 bell:
   animation: EaseOutExpo
