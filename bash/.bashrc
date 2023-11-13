@@ -91,7 +91,11 @@ THEME_CHECK_SUDO='true'
 
 # export BASH_IT_DEVELOPMENT_BRANCH='master'
 
+export EDITOR=nvim
+export VISUAL=kate
+
 export GIT_HOSTING='git@github.com'
+export GH='git@github.com'
 
 export PGH='git@github.com:Shoshta73/'
 export PGL='git@gitlab.com:Shoshta73/'
@@ -100,14 +104,14 @@ export PGT='git@gitea.com:Shoshta73/'
 
 unset MAILCHECK
 
-export IRC_CLIENT='irssi'
+# export IRC_CLIENT='irssi'
 
-export TODO="t"
+# export TODO="t"
 
 #BASH_IT_PROJECT_PATHS="${HOME}/Projects:/Volumes/work/src"
 
-export SCM_CHECK=true
-#export SCM_GIT_GITSTATUS_DIR="$HOME/gitstatus"
+# export SCM_CHECK=true
+# export SCM_GIT_GITSTATUS_DIR="$HOME/gitstatus"
 #export GITSTATUS_NUM_THREADS=8
 
 #export SHORT_HOSTNAME=$(hostname -s)
