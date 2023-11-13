@@ -2,26 +2,56 @@
 
 Personal config files - use at your own wish
 
-Arch
+- Debian/Ubuntu:
 
-```console
-sudo pacman -S git && git clone https://github.com/Shoshta73/dotfiles "$HOME"/dotfiles && bash ~/dotfiles/install-scripts/install.sh
+```bash
+sudo apt-get install git
+cd ~/
+git clone https://github.com/Shoshta73/dotfiles
+bash ~/dotfiles/bootstrap.sh
 ```
 
-Debian based
+- Fedora:
 
-```console
-sudo apt install  git && git clone https://github.com/Shoshta73/dotfiles "$HOME"/dotfiles && bash ~/dotfiles/install-scripts/install.sh
+```bash
+sudo dnf install git
+cd ~/
+git clone <https://github.com/Shoshta73/dotfiles>
+bash ~/dotfiles/bootstrap.sh
 ```
 
-Alpine
+- Arch Linux (using pacman):
 
-```console
-sudo apk add git && git clone https://github.com/Shoshta73/dotfiles "$HOME"/dotfiles && bash ~/dotfiles/install-scripts/install.sh
+```bash
+sudo pacman -S git
+cd ~/
+git clone <https://github.com/Shoshta73/dotfiles>
+bash ~/dotfiles/bootstrap.sh
 ```
 
----
+- OpenSUSE:
 
-# IMPORTANT
+```bash
+sudo zypper install git
+cd ~/
+git clone <https://github.com/Shoshta73/dotfiles>
+bash ~/dotfiles/bootstrap.sh
+```
 
-Clone recursively or update submodules only if you use or plan on using lite-xl
+- Gentoo:
+
+```bash
+sudo emerge --ask --verbose dev-vcs/git
+cd ~/
+git clone <https://github.com/Shoshta73/dotfiles>
+bash ~/dotfiles/bootstrap.sh
+```
+
+- Alpine Linux:
+
+```bash
+sudo apk add git bash
+cd ~/
+git clone <https://github.com/Shoshta73/dotfiles>
+bash ~/dotfiles/bootstrap.sh
+```
