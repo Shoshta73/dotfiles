@@ -1,3 +1,0 @@
-#!/bin/bash
-
-python ~/dotfiles/programs/networkmanager_dmenu
