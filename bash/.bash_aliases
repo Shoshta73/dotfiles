@@ -1,7 +1,8 @@
 alias us='setxkbmap us'
 alias hr='setxkbmap hr'
 
-alias rm='trash -v'
+alias rm='trash -v -i'
+alias mv='mv -i'
 
 #stupid brain
 alias where='which'
