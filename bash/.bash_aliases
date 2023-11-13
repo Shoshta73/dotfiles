@@ -88,7 +88,7 @@ setmode ()
   esac
 }
 
-create_env_scripts() 
+create_env_scripts()
 {
   local verbose=false
 
@@ -139,4 +139,11 @@ create_env_scripts()
   done
 }
 
-alias orca='ollama run orca-mini'
+# alias orca='ollama run orca-mini'
+
+update_dots() {
+  cp -f ~/dotfiles/private/git/.gitconfig ~/.gitconfig
+  rm -rf ~/dotfiles
+  git clone https://github.com/Shoshta73/dotfiles --recursive
+  ln -sf ~/dotfiles/private/git/.gitconfig ~/.gitconfig
+}
