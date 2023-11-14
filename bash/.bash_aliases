@@ -34,6 +34,7 @@ alias BadlionClient='BadlionClient > /dev/null'
 #vim
 alias nv='nvim'
 alias vim='nvim'
+alias nivm='nvim'
 # alias v='nvim'
 
 # python
