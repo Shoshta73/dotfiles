@@ -1,0 +1,7 @@
+[Defaults]
+Profile=Default
+
+[PROFILE_Default]
+EmailClient[$e]=bluemail.desktop
+ServerType=
+TerminalClient=false
