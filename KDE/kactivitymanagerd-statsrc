@@ -1,3 +1,9 @@
+[Favorites-org.kde.plasma.kicker.favorites.instance-23-f50249c8-fda0-4d2c-bf9b-4dcf0da2c0ce]
+ordering=applications:org.kde.discover.desktop,applications:org.kde.dolphin.desktop,applications:systemsettings.desktop
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-23-global]
+ordering=applications:org.kde.discover.desktop,applications:org.kde.dolphin.desktop,applications:systemsettings.desktop
+
 [Favorites-org.kde.plasma.kickoff.favorites.instance-3-f50249c8-fda0-4d2c-bf9b-4dcf0da2c0ce]
 ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,ktp-contactlist.desktop,org.kde.discover.desktop
 

@@ -3,3 +3,6 @@ update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_remember
 
 [GuiConfig]
 captureMode=0
+
+[Save]
+lastSaveLocation=file:///home/borna/Pictures/Screenshot_20231129_162913.png

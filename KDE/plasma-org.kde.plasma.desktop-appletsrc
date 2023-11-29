@@ -108,7 +108,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][8][Applets][13][Configuration]
-PreloadWeight=60
+PreloadWeight=95
 
 [Containments][8][Applets][14]
 immutability=1
@@ -127,7 +127,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 
 [Containments][8][Applets][20]
 immutability=1
@@ -145,7 +145,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 
 [Containments][8][Applets][24]
 immutability=1
@@ -159,10 +159,9 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][9][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 
 [Containments][8][Applets][9][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][8][General]

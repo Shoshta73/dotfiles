@@ -24,5 +24,8 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][64ac128b-a64b-53b0-8ba0-6188912dc7ae]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Windows]
+RollOverDesktops=true
+
 [Xwayland]
 Scale=1
