@@ -9,11 +9,6 @@
 	url = https://github.com/Shoshta73/install-scripts
 
 # alacritty themes
-[submodule "terminal/alacritty/themes"]
-	path = terminal/alacritty/themes
-	url = https://github.com/alacritty/alacritty-theme.git
-
-# lite xl plugins
 [submodule "editors/lite-xl/libraries/widget"]
 	path = editors/lite-xl/libraries/widget
 	url = https://github.com/lite-xl/lite-xl-widgets
