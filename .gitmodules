@@ -22,3 +22,6 @@
 [submodule "editors/lite-xl/plugins/lintplus"]
 	path = editors/lite-xl/plugins/lintplus
 	url = https://github.com/liquidev/lintplus
+[submodule "editors/helix/thirdparty/catppuchin"]
+	path = editors/helix/thirdparty/catppuchin
+	url = https://github.com/catppuccin/helix.git
