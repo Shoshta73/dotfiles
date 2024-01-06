@@ -1,0 +1,20 @@
+import = ["/home/borna/.config/alacritty/themes/themes/github_dark_high_contrast.toml"]
+
+[bell]
+animation = "EaseOutExpo"
+color = "#ff0000"
+command = "None"
+
+[cursor.style]
+blinking = "On"
+shape = "beam"
+
+[font]
+size = 8.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+
+[window]
+decorations = "none"
+startup_mode = "Maximized"
