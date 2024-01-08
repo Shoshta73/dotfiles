@@ -13,6 +13,14 @@
 	path = terminal/alacritty/themes
 	url = https://github.com/Shoshta73/alacritty-theme.git
 
+# Catppuchin colorschemes
+[submodule "editors/helix/thirdparty/catppuchin"]
+	path = editors/helix/thirdparty/catppuchin
+	url = https://github.com/catppuccin/helix.git
+[submodule "editors/micro/colorschemes/catppuchin"]
+	path = editors/micro/colorschemes/catppuchin
+	url = https://github.com/catppuccin/micro.git
+
 [submodule "editors/lite-xl/libraries/widget"]
 	path = editors/lite-xl/libraries/widget
 	url = https://github.com/lite-xl/lite-xl-widgets
@@ -22,6 +30,3 @@
 [submodule "editors/lite-xl/plugins/lintplus"]
 	path = editors/lite-xl/plugins/lintplus
 	url = https://github.com/liquidev/lintplus
-[submodule "editors/helix/thirdparty/catppuchin"]
-	path = editors/helix/thirdparty/catppuchin
-	url = https://github.com/catppuccin/helix.git
