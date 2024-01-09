@@ -1,0 +1,12 @@
+[Event/BellVisible]
+Action=Sound
+Execute=
+Logfile=
+Sound=/usr/share/sounds/Oxygen-Sys-Warning.ogg
+TTS=
+
+[Event/silence]
+Execute=
+Logfile=
+Sound=
+TTS=
