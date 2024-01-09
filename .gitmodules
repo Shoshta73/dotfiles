@@ -48,3 +48,6 @@
 [submodule ".config/helix/thirdparty/catppuccin"]
 	path = .config/helix/thirdparty/catppuccin
 	url = https://github.com/catppuccin/helix.git
+[submodule ".config/micro/colorschemes/cattpuccin"]
+	path = .config/micro/colorschemes/cattpuccin
+	url = https://github.com/catppuccin/micro.git
