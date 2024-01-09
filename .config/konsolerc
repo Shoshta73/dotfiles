@@ -1,0 +1,30 @@
+1536x864 screen: Height=864
+1536x864 screen: Width=1536
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAAAA/////wAAARUBAAAD+wAAACIAUQB1AGkAYwBrAEMAbwBtAG0AYQBuAGQAcwBEAG8AYwBrAAAAAAD/////AAABfAEAAAMAAAYAAAADMgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAOj/////AAAAAAAAAAA=
+
+[Desktop Entry]
+DefaultProfile=term.profile
+
+[General]
+ConfigVersion=1
+
+[KFileDialog Settings]
+Recent Files[$e]=file:///usr/share/sounds/kamoso-shutter.wav,file:///usr/share/sounds/Oxygen-Sys-Warning.ogg,file:///usr/share/sounds/Oxygen-Sys-App-Positive.ogg,file:///usr/share/sounds/Oxygen-Sys-App-Negative.ogg,file:///usr/share/sounds/Oxygen-Sys-App-Error.ogg,file:///usr/share/sounds/Kopete_Sent.ogg,file:///usr/share/sounds/Kopete_Received.ogg,file:///usr/share/sounds/Kopete_Event.ogg,file:///usr/share/sounds/KDiamond-Stone-Swap.ogg
+Recent URLs[$e]=file:///usr/share/sounds/
+detailViewIconSize=16
+
+[MainWindow]
+1536x864 screen: Height=864
+1536x864 screen: Width=1536
+1536x864 screen: Window-Maximized=true
+1920x1080 screen: Height=512
+1920x1080 screen: Width=960
+1920x1080 screen: XPosition=960
+1920x1080 screen: YPosition=28
+HDMI-1=HDMI-1
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAAAA/////wAAARUBAAAD+wAAACIAUQB1AGkAYwBrAEMAbwBtAG0AYQBuAGQAcwBEAG8AYwBrAAAAAAD/////AAABfAEAAAMAAAPAAAAB0gAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAOj/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[UiSettings]
+ColorScheme=
