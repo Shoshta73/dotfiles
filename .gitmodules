@@ -45,3 +45,6 @@
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = https://github.com/Shoshta73/AstroNvim
+[submodule ".config/helix/thirdparty/catppuccin"]
+	path = .config/helix/thirdparty/catppuccin
+	url = https://github.com/catppuccin/helix.git
