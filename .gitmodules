@@ -30,3 +30,9 @@
 [submodule "editors/lite-xl/plugins/lintplus"]
 	path = editors/lite-xl/plugins/lintplus
 	url = https://github.com/liquidev/lintplus
+
+
+# new structure
+[submodule "home/.bash_it"]
+	path = home/.bash_it
+	url = https://github.com/Shoshta73/bash-it.git
